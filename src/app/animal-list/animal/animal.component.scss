@@ -1,0 +1,120 @@
+.animal-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1200px;
+
+
+  .img-animal {
+    height: 150px;
+    width: 130px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+  }
+
+  .box-animal {
+    margin: 5% 1%;
+    width: 450px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    box-shadow: 5px 5px 8px 1px #888888;
+
+
+
+    .critical-circle {
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background: #8B1A1A;
+      right: 10px;
+      top: 5px;
+      border: solid 3px rgba(255, 64, 64, .4);
+    }
+
+    .danger-circle {
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background: #FFA500;
+      right: 10px;
+      top: 5px;
+      border: solid 3px rgba(205, 133, 0, .4);
+    }
+
+    .vulnerable-circle {
+      position: absolute;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background: #FFD700;
+      right: 10px;
+      top: 5px;
+      border: solid 3px rgba(255, 255, 0, .4);
+    }
+
+    .content-animal {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 40px;
+      justify-content: center;
+
+      .name {
+        font-size: 22px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0;
+      }
+
+      .scientific-name {
+        font-size: 16px;
+        margin-top: -4px;
+        color: #ccc;
+      }
+
+      .species {
+        font-size: 14px;
+        margin: 10px 0;
+        text-transform: uppercase;
+        color: blue;
+      }
+
+      .biome-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        width: 100px;
+        border-radius: 5px;
+
+        .biome-name {
+          text-transform: uppercase;
+          color: #fff;
+        }
+      }
+    }
+
+  }
+
+  .amazonia-biome {
+    background-color: forestgreen;
+  }
+
+  .aquatic-biome {
+    background-color: aquamarine;
+  }
+
+  .caatinga-biome {
+    background-color: darkorange;
+  }
+
+  .marshland-biome {
+    background-color: tomato;
+  }
+
+}

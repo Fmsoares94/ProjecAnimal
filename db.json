@@ -1,0 +1,76 @@
+{
+  "animais": [
+    {
+      "nome": "Ararajura",
+      "nomeCientifico": "Guaruba guarouba",
+      "especie": "Ave",
+      "bioma": "Amazônia",
+      "risco": "Em perigo",
+      "imagem": "https://www.clubedocriador.com/img-passaros/ararajuba.jpg"
+    },
+    {
+      "nome": "Caiarara",
+      "nomeCientifico": "Cebus kaapori",
+      "especie": "Mamífero",
+      "bioma": "Amazônia",
+      "risco": "Crítico",
+      "imagem": "https://djiby52t9cgpc.cloudfront.net/custom/uploads/legado/noticias/interna/Amazonia_-_macaco_4.jpg"
+    },
+    {
+      "nome": "Gato do Mato",
+      "nomeCientifico": "Leopardus tigrinus",
+      "especie": "Mamífero",
+      "bioma": "Amazônia",
+      "risco": "Em perigo",
+      "imagem": "http://criadourooncapintada.org.br/wp-content/uploads/2015/03/HORACIO.jpg"
+    },
+    {
+      "nome": "Baleia Azul",
+      "nomeCientifico": "Balaenoptera musculus",
+      "especie": "Mamífero",
+      "bioma": "Aquático",
+      "risco": "Crítico",
+      "imagem": "http://www.sosmammys.com.br/wp-content/uploads/2017/04/graphicstock-whale-in-half-air-e1492881845340.jpg"
+    },
+    {
+      "nome": "Peixe Boi",
+      "nomeCientifico": "Trichecus manatus Linnaeus",
+      "especie": "Mamífero",
+      "bioma": "Aquático",
+      "risco": "Em perigo",
+      "imagem": "https://www.magnusmundi.com/wp-content/uploads/2016/10/peixes-bois-florida_011.jpg"
+    },
+    {
+      "nome": "Tartaruga-De-Couro",
+      "nomeCientifico": "Dermochelys coriácea",
+      "especie": "Réptil",
+      "bioma": "Aquático",
+      "risco": "Crítico",
+      "imagem": ""
+    },
+    {
+      "nome": "Ararinha-Azul",
+      "nomeCientifico": "Cyanopsitta spixii",
+      "especie": "Ave",
+      "bioma": "Caatinga",
+      "risco": "Crítico",
+      "imagem": "https://images.redetv.uol.com.br/public/jornalismo/redetvinoticias/20180917073658nmEfRLnbDA.jpg"
+    },
+    {
+      "nome": "Arara-Azul de Lear",
+      "nomeCientifico": "Anodorhynchus leari",
+      "especie": "Ave",
+      "bioma": "Caatinga",
+      "risco": "Em perigo",
+      "imagem": "https://i0.wp.com/gigadicas.com/v2/wp-content/uploads/2017/04/Arara-Azul-Amaz%C3%B4nia.jpg?w=900&ssl=1"
+    },
+    {
+      "nome": "Onça-Pintada",
+      "nomeCientifico": "Panthera onca",
+      "especie": "Mamífero",
+      "bioma": "Pantanal",
+      "risco": "Vulnerável",
+      "imagem": "https://www.amda.org.br/images/especie_da_vez/2012.12.10_Onca_Pintada.jpg"
+    }
+  ]
+}

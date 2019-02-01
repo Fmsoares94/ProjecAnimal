@@ -1,0 +1,26 @@
+<section class="animal-container">
+  <div class="box-animal" *ngFor="let animal of animal ">
+    <i
+     [class.danger-circle]="animal.risco == 'Em perigo'" 
+    [class.critical-circle]="animal.risco == 'Crítico'"
+      [class.vulnerable-circle]="animal.risco == 'Vulnerável'"></i>
+    <img
+     [class.amazonia-biome]="animal.bioma == 'Amazônia' && !animal.imagem.length"
+     [class.aquatic-biome]="animal.bioma == 'Aquático' && !animal.imagem.length"
+      [class.caatinga-biome]="animal.bioma == 'Caatinga' && !animal.imagem.length" 
+      [class.marshland-biome]="animal.bioma == 'Pantanal' && !animal.imagem.length"
+      class="img-animal" src="{{animal.imagem}}" alt="">
+    <div class="content-animal">
+      <h1 class="name">{{animal?.nome}}</h1>
+      <span class="scientific-name">{{animal.nomeCientifico}}</span>
+      <span class="species">{{animal.especie}}</span>
+      <div class="biome-box"
+       [class.amazonia-biome]="animal.bioma == 'Amazônia'"
+        [class.aquatic-biome]="animal.bioma == 'Aquático'"
+        [class.caatinga-biome]="animal.bioma == 'Caatinga'"
+         [class.marshland-biome]="animal.bioma == 'Pantanal'">
+        <span class="biome-name">{{animal.bioma}}</span>
+      </div>
+    </div>
+  </div>
+</section>
